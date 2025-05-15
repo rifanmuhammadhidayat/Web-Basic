@@ -1,0 +1,21 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto 0;
+  padding: 50px;
+  background-color: #ffffff; /* warna putih */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
